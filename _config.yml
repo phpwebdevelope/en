@@ -1,13 +1,13 @@
 lang: en-UK
 url: https://phpwebdevelope.github.io
-baseurl: /agency-jekyll-theme/
-
+baseurl: "" # / agency-jekyll-theme/
+google_analytics: UA-110136381-1 
+plugins:
+  - jekyll-sitemap
 # Site settings
-title: House Of Fennel
-email: your-email@domain.com
-description: "Jamaican Fashion Couture House for womenswear."
-
-
+title: House Of Fennel 
+email: info@houseoffennel.com
+description: "Jamaican Fashion House for womenswear - Indigenous Jamaican Creativity."
 # Team names, titles and social links
 people:
 - name: M. M. Fennel
@@ -31,7 +31,6 @@ people:
       url: #
     - title: google-plus
       url: #
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
@@ -41,14 +40,11 @@ social:
   - title: instagram
     url: https://www.instagram.com/houseoffennel
   - title: google plus 
-    url: http://plus.google.com/houseoffennel
-
+    url: https://plus.google.com/112332268275126848746
 # Postal address (add as many lines as necessary)
 address:
-  - line: Portmore
   - line: Jamaica
   - line: West Indies
-
 # Build settings
 markdown: kramdown
 permalink: pretty
